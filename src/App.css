@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+a {
+  text-decoration: none;
+  margin: 20px;
+  color: orangered;
+}
+
+#chartcontainer {
+  background-color: aquamarine;
+  border: red;
+  border-style: solid;
+  margin: 20px;
+}
+
+li {
+  margin: 20px;
+  font-family: Helvetica;
+  
+}
+h1 {
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: Helvetica;
+}
