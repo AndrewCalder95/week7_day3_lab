@@ -4,9 +4,8 @@ import ChartContainer from './containers/ChartContainer';
 
 function App() {
   return (
-    <div id="chartcontainer">
+    
       <ChartContainer/>
-    </div>
 
   )
 }

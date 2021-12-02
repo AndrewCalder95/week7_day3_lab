@@ -4,11 +4,11 @@ import ChartItem from "./ChartItem"
 const ChartList = ({ charts }) => {
 
     const chartItems = charts.map((chart, index) => {
-        return <ChartItem chart = {chart} key={index}/>
+        return <ChartItem chart = {chart} position={index+1}/>
     })
     
     return (
-        <div>
+        <div id ="lists">
             <ol>
                 {chartItems}
             </ol>

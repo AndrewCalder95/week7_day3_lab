@@ -16,8 +16,10 @@ const ChartContainer = () => {
     }
     return (
         <>
-            <h1>UK Top 20 </h1>
-            <ChartList charts={charts}/>
+            <h1> UK Top 20 </h1>
+            <div id="chartcontainer">
+                <ChartList charts={charts} />
+            </div>
         </>
     )
 

@@ -37,26 +37,59 @@
   }
 }
 
-a {
-  text-decoration: none;
-  margin: 20px;
-  color: orangered;
-}
-
 #chartcontainer {
-  background-color: aquamarine;
-  border: red;
-  border-style: solid;
   margin: 20px;
+  display: flex;
+  justify-content: center;
 }
 
 li {
   margin: 20px;
-  font-family: Helvetica;
+  font-family:'Neucha', sans-serif;
+  font-size: x-large;
+  display: flex; 
+  align-items: center;
+  border-radius: 5px;
+  width: 900px;
+  border-style: solid;
+  background-color: rgba(224, 224, 224, 0.61)
   
 }
+
+li:hover {
+  background-color: rgb(123, 188, 253);
+}
+
 h1 {
   margin-bottom: 30px;
   text-align: center;
-  font-family: Helvetica;
+  font-family:'Neucha';
+  color:rgb(42, 53, 65);
+  font-size: 50px;
+}
+
+h2 {
+  padding: 20px;
+  text-align: center;
+  font-family:'Neucha', sans-serif
+}
+
+img {
+  border-style:double;
+  margin: 10px
+}
+
+#title_and_sound {
+  display: flex;
+  flex-direction: column;
+  padding-left: 70px;
+}
+
+#title {
+  margin: 5px;
+
+}
+
+#music {
+  margin: 5px;
 }
