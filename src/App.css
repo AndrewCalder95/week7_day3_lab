@@ -49,9 +49,7 @@ li {
   font-size: x-large;
   display: flex; 
   align-items: center;
-  border-radius: 5px;
   width: 900px;
-  border-style: solid;
   background-color: rgba(224, 224, 224, 0.61)
   
 }
